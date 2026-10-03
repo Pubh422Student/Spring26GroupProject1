@@ -1,0 +1,12 @@
+Spring26GroupProject1/
+│
+├── data/
+│   └── HINTSData_2020_clean.csv      # Raw dataset
+├── scripts/
+│   ├── 01_data_import.R             # Setup & loading script
+│   ├── 02_descriptive_analysis.R    # Summary statistics & custom functions
+│   └── 03_univariate_viz.R          # Base R & ggplot2 visualizations
+├── output/
+│   └── figures/                     # Saved output plots (.png)
+├── README.md                        # Project overview & team metadata
+└── main_analysis.Rmd                # Final cohesive R Markdown report
