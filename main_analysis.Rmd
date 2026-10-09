@@ -1,0 +1,18 @@
+---
+title: "HINTS 2020 Population Health Analysis"
+author: "Jesse Han, Gloriana Camarena, Tiffany Morales, Edward Sanchez"
+date: "2026-10-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Data Import and Management
+
+# Descriptive Analysis
+
+# Univariate Visualization
+
+# Functions
