@@ -1,9 +1,11 @@
 #Day 3 (B.2)
 #Installs the dplyr package.
-#install.packages("dplyr") <- Remove the # to install the dplyr package, afterwards add the # back to not keep re-installing it.
+#Remove # to install the dplyr package, afterwards add the # back to not keep re-installing it.
+#install.packages("dplyr") R
 library(dplyr)
 #Installs the skimr package.
-#install.packages("skimr")  <- Remove the # to install the skimr package, afterwards add the # back to not keep re-installing it.
+#Remove # to install the skimr package, afterwards add the # back to not keep re-installing it.
+#install.packages("skimr")  
 library(skimr)
 
 #Day 4 (4.3)
@@ -13,7 +15,7 @@ library(ggplot2)
 
 #Day 1 Project Setup & Data Import
 #Reads the uploaded data sheet.
-data_name <- read.csv("../data/HINTSData_2020_clean.csv")
+data_name <- read.csv("HINTSData_2020_clean.csv")
 
 #Inspects data sheet for missing values and cleans it if applicable.
 summary(data_name)
@@ -52,7 +54,30 @@ my_summary_func(birth_gender)
 my_summary_func(smoke_stat)
 my_summary_func(race_ethn5)
 
-#B2 To work on later...
+#B2 
+# Generates the stratified summary statistics for continuous variables
+grouped_summary <- data_name %>%
+  group_by(smokeStat) %>%
+  summarise(
+    mean_Age = mean(Age, na.rm = TRUE),
+    sd_Age = sd(Age, na.rm = TRUE),
+    
+    mean_BMI = mean(BMI, na.rm = TRUE),
+    sd_BMI = sd(BMI, na.rm = TRUE),
+    
+    mean_Exercise = mean(WeeklyMinutesModerateExercise, na.rm = TRUE),
+    sd_Exercise = sd(WeeklyMinutesModerateExercise, na.rm = TRUE),
+    
+    mean_Drinks = mean(AvgDrinksPerWeek, na.rm = TRUE),
+    sd_Drinks = sd(AvgDrinksPerWeek, na.rm = TRUE)
+  )
+#Interpretation
+
+# Print the results
+print(grouped_summary)
+
+#Produces statistical summary for the continuous variables
+skim(data_name)
 
 #Day 4 Uni-variate Visualization
 #4.1
