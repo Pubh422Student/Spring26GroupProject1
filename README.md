@@ -3,7 +3,7 @@
 ## Team Information
 * **Course:** PUBH 422 - Statistical Programming in Health Data Management and Visualization
 * **Instructor:** Dr. Lohuwa Mamudu
-* **Due Date:** March 2, 2026
+* **Due Date:** October 14, 2026
 * **Team Name:** PUBH 422-50
 * **Team Members:** Jesse Han, Gloriana Camarena, Tiffany Morales, Edward Sanchez
   - Jesse Han (Role: Data Management & GitHub Lead)
