@@ -313,30 +313,30 @@ my_visual_func_II <- function(hist_data, box_data){
 
 ### #4.1 Graphs Showing the Distribution of QualityCare and RaceEthn5
 
-![](Histogram of quality_care.png)
+![](Histogram%20of%20quality_care.png)
 
 **Interpretation:** The distribution is heavily skewed toward higher perceived quality ratings. The majority of respondents rate their quality of care in categories 1 and 2 (totaling 1,797 out of 2,402 respondents, with category 2 alone containing 1,033 responses). Frequencies drop sharply as category numbers increase, with very few participants reporting poor care in categories 4 (117 respondents) and 5 (25 respondents).
 
-![***Boxplot of race_ethn5***](Boxplot of race_ethn5).png)
+![](images/clipboard-546808709.png)
 
 **Interpretation:** The distribution illustrates substantial demographic concentration within the sample. Category 1 represents the overwhelming majority group, comprising 1,548 participants (\~64.4% of the total sample). Categories 2 and 3 form secondary groups with 312 and 357 participants respectively, while categories 4 and 5 represent smaller minority representations (96 and 89 participants).
 
 ### #4.2 Graphs Showing the Distribution of BMI and Age
 
-![](Histogram of bmi.png)
+![](Histogram%20of%20bmi.png)
 
 **Interpretation:** The histogram reveals a unimodal distribution with a moderate right-skew (positive skewness). The data is centered around a median of 27.5 and a mean of 28.61, placing the average participant in the overweight category. While the bulk of values cluster between 24.0 (1st quartile) and 31.9 (3rd quartile), a long right tail extends up to an extreme maximum value of 73.8, highlighting upper-range weight outliers in the cohort.
 
-![***Boxplot of age***](Boxplot of age.png)
+![***Boxplot of age***](Boxplot%20of%20age.png)
 
 **Interpretation:** The boxplot demonstrates a well-distributed sample of adult ages spanning from 18 to 100 years. The median line sits at 58.0 years, and the interquartile range (the box) spans from 43.0 (1st quartile) to 68.0 (3rd quartile), showing that the middle 50% of participants are middle-aged to older adults. The whiskers extend properly across the full adult spectrum without indicating isolated anomalies outside standard demographic bounds.
 
 ### #4.3 Visual Analysis in 4.1 and 4.2 Variables
 
-![](Visual analysis of quality_care.png)
+![](Visual%20analysis%20of%20quality_care.png)
 
-![](Visual analysis of race_ethn5.png)
+![](Visual%20analysis%20of%20race_ethn5.png)
 
-![](Visual analysis of bmi.png)
+![](Visual%20analysis%20of%20bmi.png)
 
-![](Visual analysis of age.png)
+![](Visual%20analysis%20of%20age.png)
