@@ -7,8 +7,8 @@
 * **Team Name:** PUBH 422-50
 * **Team Members:** Jesse Han, Gloriana Camarena, Tiffany Morales, Edward Sanchez
   - Jesse Han (Role: Data Management & GitHub Lead)
-  - Student 2 (Role: Descriptive Statistics Lead)
-  - Student 3 (Role: Visualization Lead)
+  - Gloriana Camarena (Role: Descriptive Statistics Lead)
+  - Tiffany Morales (Role: Visualization Lead)
   - Edward Sanchez (Role: R Markdown Integration & Reporting)
 
 ## Project Overview
